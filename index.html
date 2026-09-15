@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roshan Chaurasiya - B.Tech student, AI/ML learner and web developer portfolio">
+  <title>Roshan Chaurasiya | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a class="logo" href="#home">Roshan<span>.</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-qr" href="#qr">QR</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero section" id="home">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          B.Tech Student • AI/ML Learner • Web Developer
+        </p>
+
+        <h1>
+          Hi, I'm <span>Roshan Chaurasiya</span>
+        </h1>
+
+        <h2>
+          I build <span id="typing"></span><span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-text">
+          I'm learning Artificial Intelligence, Machine Learning and modern web development,
+          while building practical projects that solve real problems.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="socials">
+
+          <a href="https://github.com/roshangkp"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="GitHub">
+            GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/roshan-chaurasiya-99b29a364"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="LinkedIn">
+            LinkedIn
+          </a>
+
+          <a href="mailto:roshangkp139@gmail.com"
+             aria-label="Email">
+            Email
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-card">
+
+        <!-- PROFILE IMAGE -->
+        <img src="profile.jpg"
+             alt="Roshan Chaurasiya"
+             class="profile-photo">
+
+        <div>
+          <p class="small-label">Currently learning</p>
+
+          <h3>
+            AI • ML • Python • JavaScript
+          </h3>
+
+          <p>
+            Creating projects and improving problem-solving skills.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="about">
+
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Turning learning into projects.</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-card">
+
+          <h3>Who I Am</h3>
+
+          <p>
+            I am a B.Tech student interested in Artificial Intelligence, Machine Learning,
+            programming and web development. I enjoy learning by building practical projects
+            and experimenting with new technologies.
+          </p>
+
+        </div>
+
+        <div class="about-card">
+
+          <h3>What I Do</h3>
+
+          <ul class="check-list">
+
+            <li>
+              Build responsive websites with HTML, CSS and JavaScript
+            </li>
+
+            <li>
+              Learn AI/ML concepts and Python
+            </li>
+
+            <li>
+              Develop academic and practical projects
+            </li>
+
+            <li>
+              Prepare for technical interviews and placements
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="skills">
+
+      <div class="section-heading">
+        <p class="eyebrow">My Skills</p>
+        <h2>Technologies I'm working with.</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <span>HTML5</span>
+          <div class="bar">
+            <i style="width:90%"></i>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>CSS3</span>
+          <div class="bar">
+            <i style="width:85%"></i>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>JavaScript</span>
+          <div class="bar">
+            <i style="width:75%"></i>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>Python</span>
+          <div class="bar">
+            <i style="width:75%"></i>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>AI / ML</span>
+          <div class="bar">
+            <i style="width:70%"></i>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>Git / GitHub</span>
+          <div class="bar">
+            <i style="width:65%"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="note">
+        Skill percentages are editable estimates—change them to match your real level.
+      </p>
+
+    </section>
+
+
+    <section class="section" id="projects">
+
+      <div class="section-heading">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Projects I've worked on.</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card featured">
+
+          <div class="project-number">01</div>
+
+          <h3>
+            Smart AI Attendance Using Face Recognition
+          </h3>
+
+          <p>
+            An attendance system concept using face recognition to identify students and
+            record attendance. Designed with duplicate-attendance handling and morning/evening
+            attendance logic in mind.
+          </p>
+
+          <div class="tags">
+            <span>AI</span>
+            <span>Face Recognition</span>
+            <span>Python</span>
+          </div>
+
+          <a href="#contact" class="project-link">
+            Discuss project →
+          </a>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <div class="project-number">02</div>
+
+          <h3>
+            Car Price Prediction
+          </h3>
+
+          <p>
+            A machine-learning project idea that predicts a car's price from useful input
+            features such as age, mileage and other vehicle attributes.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>ML</span>
+            <span>Prediction</span>
+          </div>
+
+          <a href="#contact" class="project-link">
+            Discuss project →
+          </a>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <div class="project-number">03</div>
+
+          <h3>
+            Movie Recommendation System
+          </h3>
+
+          <p>
+            A recommendation project that suggests movies based on user preferences,
+            movie features or similarity between titles.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>ML</span>
+            <span>Recommendation</span>
+          </div>
+
+          <a href="#contact" class="project-link">
+            Discuss project →
+          </a>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <div class="project-number">04</div>
+
+          <h3>
+            QR Code Generator
+          </h3>
+
+          <p>
+            A web project for generating QR codes from user-provided text or links, with
+            a simple responsive interface.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a href="#contact" class="project-link">
+            Discuss project →
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="education">
+
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>My academic journey.</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <div class="dot"></div>
+
+          <div>
+
+            <p class="time">
+              B.Tech
+            </p>
+
+            <h3>
+              Bachelor of Technology
+            </h3>
+
+            <p>
+              Computer Science Engineering — Artificial Intelligence<br> 
+              <strong>Bansal Institute of Engineering and Technology Lucknow</strong>.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="certificates">
+
+      <div class="section-heading">
+        <p class="eyebrow">Certificates & Experience</p>
+        <h2>Learning beyond the classroom.</h2>
+      </div>
+
+      <div class="certificate-grid">
+
+        <div class="info-card">
+
+          <span class="icon">AI</span>
+
+          <h3>
+            AI / ML Course
+          </h3>
+
+          <p>
+            Learning AI fundamentals, machine learning, LLMs and related concepts.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <span class="icon">HCL</span>
+
+          <h3>
+            Industrial Visit
+          </h3>
+
+          <p>
+            Industrial visit experience at HCLTech, Lucknow.
+          </p>
+
+        </div>
+
+
+        <div class="info-card">
+
+          <span class="icon">WEB</span>
+
+          <h3>
+            Web Development
+          </h3>
+
+          <p>
+            Hands-on practice with HTML, CSS and JavaScript projects.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section qr-section" id="qr">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          Share My Portfolio
+        </p>
+
+        <h2>
+          One scan → my portfolio.
+        </h2>
+
+      </div>
+
+
+      <div class="qr-layout">
+
+        <div>
+
+          <h3>
+            How it works
+          </h3>
+
+          <p>
+            After publishing this website, put your final portfolio URL into the QR generator.
+            Anyone can scan the QR code and open your portfolio on their phone.
+          </p>
+
+          <ol class="steps">
+
+            <li>
+              Publish this website on GitHub Pages.
+            </li>
+
+            <li>
+              Copy your GitHub Pages portfolio URL.
+            </li>
+
+            <li>
+              Paste it into the QR generator.
+            </li>
+
+            <li>
+              Download the QR code and share it.
+            </li>
+
+          </ol>
+
+          <a class="btn primary" href="qr.html">
+            Open QR Generator
+          </a>
+
+        </div>
+
+
+        <div class="qr-preview">
+
+          <div id="qrHome"></div>
+
+          <p>
+            Demo QR — replace it with your final portfolio URL.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section contact" id="contact">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          Contact
+        </p>
+
+        <h2>
+          Let's connect.
+        </h2>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+        <div class="contact-card">
+
+          <h3>
+            Get in touch
+          </h3>
+
+          <p>
+            Replace the details below with your real contact information before publishing.
+          </p>
+
+          <a href="mailto:roshangkp139@gmail.com">
+            📧 roshangkp139@gmail.com
+          </a>
+
+          <a href="#" target="_blank">
+            💼 LinkedIn Profile
+          </a>
+
+          <a href="#" target="_blank">
+            💻 GitHub Profile
+          </a>
+
+        </div>
+
+
+        <form class="contact-form" id="contactForm">
+
+          <input
+            type="text"
+            id="name"
+            placeholder="Your name"
+            required>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Your email"
+            required>
+
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Your message"
+            required></textarea>
+
+          <button
+            class="btn primary"
+            type="submit">
+            Send Message
+          </button>
+
+          <p id="formMessage"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <p>
+      © <span id="year"></span>
+      Roshan Chaurasiya.
+      Built with HTML, CSS & JavaScript.
+    </p>
+
+    <a href="#home">
+      Back to top ↑
+    </a>
+
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
