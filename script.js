@@ -111,12 +111,9 @@ if (contactForm) {
       contactForm.reset();
 
     } catch (error) {
-      console.error(error);
-
-      formMessage.textContent =
-        "Message could not be sent. Please try again later.";
-
-    } finally {
+  console.error(error);
+  formMessage.textContent = error.message || "Message could not be sent.";
+} finally {
       submitButton.disabled = false;
       submitButton.textContent = "Send Message";
     }
