@@ -24,18 +24,15 @@ export default async function handler(req, res) {
 
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
-
       headers: {
-        "Authorization": `Bearer ${apiKey}`,
+        Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json"
       },
-
       body: JSON.stringify({
         from: "Portfolio Contact <onboarding@resend.dev>",
         to: ["roshangkp139@gmail.com"],
         reply_to: email,
         subject: `Portfolio message from ${name}`,
-
         text:
           `Name: ${name}\n` +
           `Email: ${email}\n\n` +
@@ -55,16 +52,14 @@ export default async function handler(req, res) {
     }
 
     return res.status(200).json({
-      success: true,
-      message: "Email sent successfully."
+      success: true
     });
 
   } catch (error) {
     console.error("SERVER ERROR:", error);
 
     return res.status(500).json({
-      error: "Server error.",
-      details: error.message
+      error: error.message
     });
   }
 }
